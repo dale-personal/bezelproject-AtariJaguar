@@ -1,4 +1,4 @@
-$files = Get-ChildItem -File -Filter *.cfg -Path "retroarch\config\Virual Jaguar\"
+$files = Get-ChildItem -File -Filter *.cfg -Path "retroarch\config\Virtual Jaguar\"
 
 for ($i=0; $i -lt $files.Count; $i++) {
     Write-Output $files[$i].FullName
